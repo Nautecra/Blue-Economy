@@ -135,3 +135,38 @@ body {
 .read-more-btn:hover::after { /* Animate arrow on hover */
     margin-left: 10px;
 }
+/* Footer */
+.footer {
+    background: #fff; /* Dark gray gradient */
+    color: #000;
+  }
+  
+  .footer-logo {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #000; /* Lighter gray on hover */
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+    color: #000; /* Light gray copyright text */
+  }
+  
